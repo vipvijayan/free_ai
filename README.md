@@ -27,6 +27,12 @@ This directory catalogues services offering free or trial-credit access to API-b
   - [Kilo Gateway](#-kilo-gateway)
   - [OpenCode Zen](#-opencode-zen)
   - [Command Code](#-command-code)
+  - [Z.ai](#-zai)
+  - [AIHubMix](#-aihubmix)
+  - [Requesty](#-requesty)
+  - [Nous Portal](#-nous-portal)
+  - [LLM7.io](#-llm7io)
+  - [BazaarLink](#-bazaarlink)
   - [Groq](#-groq)
   - [Cohere](#-cohere)
   - [Cloudflare Workers AI](#-cloudflare-workers-ai)
@@ -183,6 +189,78 @@ Models share a common quota.
 | `ling-3.1-flash:free` | Free, no daily limit |
 | `ling-3.0-flash-sante:free` | 100 requests/day |
 | `glyph-cluster:free` | 100 requests/day (stealth preview) |
+
+---
+
+## ▍ [Z.ai](https://z.ai/)
+
+> Zhipu AI's public API — OpenAI-compatible at `https://api.z.ai/api/paas/v4/chat/completions` (plus an Anthropic-compatible endpoint; works with Claude Code and Cline). Three models are permanently priced at **$0 for input, cached input, and output** — genuine free models, not trial credits. No credit card. Rate limits are per-account and unpublished — check your own limits in the [console](https://z.ai/manage-apikey/rate-limits).
+
+**Free Models** (verified against the [official pricing page](https://docs.z.ai/guides/overview/pricing), Oct 2026)
+
+- `glm-4.7-flash` — text, 200K context (strongest of the three)
+- `glm-4.5-flash` — text, 128K context
+- `glm-4.6v-flash` — vision, 128K context
+
+> ⚠️ **Naming trap** — the newer **GLM-5.3-Flash is NOT free** (it is a cheap paid model). Only the 4.x-generation Flash models above are $0. Z.ai does not commit to keeping them free indefinitely.
+
+---
+
+## ▍ [AIHubMix](https://aihubmix.com/models/free)
+
+> Gateway subsidizing **60 models at $0 per million input & output tokens**. Every model answers all three protocols: OpenAI Chat Completions, Anthropic Messages, and Responses — works natively with Claude Code (`ANTHROPIC_BASE_URL`), Cursor, Cline, and LiteLLM. One key for all models.
+
+**Limits** — No card: 10 trial calls to start (no expiry). A one-time **$1 top-up** permanently unlocks daily quotas: **100 requests/day · 10 requests/min · 1M tokens/day** shared across the free catalog ([free-models page](https://aihubmix.com/models/free))
+
+**Free Models** (as of Oct 2026 — rotating; full list of 60 on the site)
+
+- Coding: `coding-glm-5.3-free` · `coding-glm-5.3-flash-free` · `coding-kimi-k3-free` · `coding-minimax-m3-free` · `kimi-for-coding-free` · `north-mini-code-free` · `laguna-s-2.1-free` · `laguna-xs-2.1-free`
+- Xiaomi: `xiaomi-mimo-v2.6-pro-free` · `xiaomi-mimo-v2.5-free` · `mimo-v2-flash-free`
+- Google: `gemini-3.8-flash-free` · `gemini-3.6-flash-free` · `gemini-3.5-flash-lite-free` · `gemma-4-31b-it-free`
+- OpenAI: `gpt-5.5-free` · `gpt-4.1-free` · `gpt-4.1-mini-free` · `gpt-4.1-nano-free` · `gpt-oss-20b-free`
+- NVIDIA: `nemotron-3-ultra-550b-a55b-free` · `nemotron-3.5-lightning-free` · `nemotron-3-super-120b-a12b-free`
+- Others: `ling-3.0-flash-free` · `hy3-free` · `qwen3.6-plus-preview-free` · `lfm-2.5-2.6b-free` · `dots-3-note-preview-free` · `glm-4.7-flash-free`
+
+---
+
+## ▍ [Requesty](https://www.requesty.ai/free-models)
+
+> AI gateway with a free tier that is the full platform — routing, fallback, prompt caching, real-time analytics, and **EU data residency**. OpenAI-compatible at `https://router.requesty.ai/v1`; works in Claude Code (`ANTHROPIC_BASE_URL` = `https://router.requesty.ai`), Cline, Cursor, and Roo Code. No credit card, no trial timer.
+
+**Limits** — 200 requests/day on free models ([free-models page](https://www.requesty.ai/free-models))
+
+**Free Models** — marked in the live [model list](https://www.requesty.ai/models) (~13 rotating: Nemotron 3 Ultra, Laguna, Gemma 4, Ling 3.1, Leanstral, etc.)
+
+---
+
+## ▍ [Nous Portal](https://portal.nousresearch.com/)
+
+> Nous Research's model gateway (powers Hermes Agent) with a **$0 Free plan**: free models only, standard rate limits, $0 monthly credits. OpenAI-compatible. Hundreds of models in the catalog, with $0.00/1M rows for the free ones. Keyless calls return HTTP 402 — you must mint a Portal key first ([API docs](https://portal.nousresearch.com/api-docs)).
+
+**Free Models** ($0.00/1M listed on the [models page](https://portal.nousresearch.com/models), Oct 2026)
+
+- Ling 3.1 Flash · Ling 3.0 Flash Fin · Ling 3.0 Flash Sante
+- LongCat 2.0 · LongCat 2.5 Preview
+- Laguna S 2.1 · Laguna XS 2.1
+- Step 3.7 Flash · Step 5 Preview · Solar Mini 4
+
+---
+
+## ▍ [LLM7.io](https://llm7.io/)
+
+> Small educational/research LLM gateway (OpenAI-compatible at `https://api.llm7.io/v1`). Free dashboard token from [dash.llm7.io](https://dash.llm7.io) — no credit card. Covers `turbo`-tier models only (e.g. GLM-5.3-Flash, codestral-latest, minimax-m2.7 — check the [Models API](https://docs.llm7.io/guides/models-api) for live tiers).
+
+**Limits** (free token) — 100,000 tokens per 24 hours · 1 req/s · 60 req/min · 250 req/hr ([limits docs](https://docs.llm7.io/limits))
+
+> ⚠️ Free quotas were **significantly reduced in Oct 2026** and "may be reduced without notice" per LLM7's own terms. An anonymous (keyless) tier also exists in the terms but current docs are inconsistent — get a free token to be safe.
+
+---
+
+## ▍ [BazaarLink](https://bazaarlink.ai/)
+
+> OpenAI-compatible gateway at `https://api.bazaarlink.ai/v1` (also Anthropic Messages + Responses endpoints). No credit card on signup. Offers a zero-cost `auto:free` router model for free inference, plus signup trial credits ([llms.txt](https://bazaarlink.ai/llms.txt)).
+
+**Limits** — Free-model rate and daily limits are server-owned; free web search requires a verified email
 
 ---
 
