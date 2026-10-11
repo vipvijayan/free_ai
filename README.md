@@ -28,6 +28,7 @@ This directory catalogues services offering free or trial-credit access to API-b
   - [Vercel AI Gateway](#-vercel-ai-gateway)
   - [Kilo Gateway](#-kilo-gateway)
   - [OpenCode Zen](#-opencode-zen)
+  - [Command Code](#-command-code)
   - [Groq](#-groq)
   - [Cohere](#-cohere)
   - [Cloudflare Workers AI](#-cloudflare-workers-ai)
@@ -154,17 +155,36 @@ Models share a common quota.
 
 ---
 
-## ▍ [OpenCode Zen](https://opencode.ai/docs/zen/)
+## ▍ [OpenCode Zen](https://opencode.ai/zen)
 
-> AI gateway with curated models. **Free tier works only from within the OpenCode client** — external/anonymous API calls are blocked (`FreeTierError`). Default is zero-retention / no training, with named exceptions (Big Pickle, MiMo, Ling, Nemotron, etc.) that may use data for improvement.
+> AI gateway with curated, benchmarked models for coding agents. **OpenAI-compatible** — base URL `https://opencode.ai/zen/v1/chat/completions`. Free models are **$0 input/output** and are available "for a limited time" while teams collect feedback. Can be used with any agent (setup requires signing in and adding a billing balance — anonymous/external calls to the free tier are blocked). Privacy: default zero-retention/no training, with named exceptions (Big Pickle, MiMo, Ling, Nemotron, etc.); Space Bunny, LongCat and Step 5 explicitly follow zero-retention policies.
 
-**Free Models** (as of Oct 2026)
+**Free Models** (as of Oct 2026 — official docs + catalog; rotates)
 
-- Big Pickle
-- MiMo-V2.5 Free · MiMo-V2.6 Free
-- Nemotron 3 Ultra Free · Nemotron 3.5 Lightning Free
-- Ling 3.1 Flash Free · Ling 3.0 Flash Fin Free
-- Space Bunny · LongCat · Step 5 · Exo · Muse Spark · Jev
+- Big Pickle (stealth) · Space Bunny Free (stealth) · LongCat 2.5 Preview Free · Step 5 Preview Free
+- Exo Free · MiMo-V2.5 Free · MiMo-V2.6-Flash Free · MiMo V2 Flash / Omni / Pro Free
+- Ling 3.1 Flash Free · Ling 3.0 Flash Fin Free · Ling 2.6 Flash Free · Ling-3.0-flash Free · Ling-3.0-tiny Free
+- Nemotron 3 Ultra Free · Nemotron 3 Super Free · Nemotron 3.5 Lightning Free
+- Muse Spark 1.3 Contributor Free · Muse Spark 1.2 Contributor Free
+- North Mini Code Free · Laguna S 2.1 Free · Kimi K2.5 Free
+- GLM-4.7 Free · GLM-5 Free · MiniMax M2.1 / M2.5 / M3 Free
+- Qwen3.6 Plus Free · Ring 2.6 1T Free · Trinity Large Preview Free · Hy3 Free · Hy3 Preview Free
+- DeepSeek V4 Flash Free · Ox Alpha Free (Unlimited) · Fledge Alpha Free · Jev 1.13 Free
+
+---
+
+## ▍ [Command Code](https://commandcode.ai/)
+
+> Coding-agent platform (CLI + API) with an OpenAI- and Anthropic-compatible Provider API at `https://api.commandcode.ai/provider/v1`. Offers promotional **free deal models** ($0 in credits). ⚠️ **Requires a paid plan** — the $1/mo Go plan is CLI-only; **API access starts at the $10/mo GOAT plan** (or the $15/mo Provider PAYG plan). Free deal models do not draw down plan credits.
+
+**Free Deal Models** (as of Oct 2026 — "while capacity lasts")
+
+| Model | Limit |
+| --- | --- |
+| `laguna-s-2.1-free` | Free, no daily limit |
+| `ling-3.1-flash:free` | Free, no daily limit |
+| `ling-3.0-flash-sante:free` | 100 requests/day |
+| `glyph-cluster:free` | 100 requests/day (stealth preview) |
 
 ---
 
