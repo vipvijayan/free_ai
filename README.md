@@ -382,4 +382,4 @@ Providers previously listed in this directory whose free access has ended. Kept 
 
 ## Closing Notes
 
-Rate limits, credit amounts, and model availability change frequently at each provider's sole discretion. Please verify current terms directly on each provider's website before relying on a free tier for production workloads. Links and free-tier claims in this directory were last verified on 10 October 2026 — see [README-VERIFICATION.md](README-VERIFICATION.md) for the full verification log.
+Rate limits, credit amounts, and model availability change frequently at each provider's sole discretion. Please verify current terms directly on each provider's website before relying on a free tier for production workloads. Links and free-tier claims in this directory were last verified on 10 October 2026.
