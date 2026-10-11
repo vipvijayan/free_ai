@@ -79,14 +79,22 @@ A curated, verified reference of free and trial-credit LLM inference APIs. Every
 | Model |
 |---|
 | Cohere North Mini Code |
-| Poolside Laguna S 2.1 / XS 2.1 |
-| google/gemma-4-26b-a4b-it:free / gemma-4-31b-it:free |
-| nvidia/nemotron-3-nano-30b-a3b:free / nano-omni-30b-a3b-reasoning:free |
-| nvidia/nemotron-3-super-120b-a12b:free / ultra-550b-a55b:free |
+| Poolside Laguna S 2.1 |
+| Poolside Laguna XS 2.1 |
+| google/gemma-4-26b-a4b-it:free |
+| google/gemma-4-31b-it:free |
+| nvidia/nemotron-3-nano-30b-a3b:free |
+| nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free |
+| nvidia/nemotron-3-super-120b-a12b:free |
+| nvidia/nemotron-3-ultra-550b-a55b:free |
 | nvidia/nemotron-3.5-content-safety:free |
-| nvidia/nemotron-nano-12b-v2-vl:free / nano-9b-v2:free |
-| apodex-1.1-mini:free · dots-3-note:free · lfm2.5-2.6b:free |
-| thinkingmachines/inkling:free / inkling-small:free |
+| nvidia/nemotron-nano-12b-v2-vl:free |
+| nvidia/nemotron-nano-9b-v2:free |
+| apodex-1.1-mini:free |
+| dots-3-note:free |
+| lfm2.5-2.6b:free |
+| thinkingmachines/inkling:free |
+| thinkingmachines/inkling-small:free |
 
 ---
 
@@ -100,12 +108,25 @@ A curated, verified reference of free and trial-credit LLM inference APIs. Every
 
 **Free Models** (2026-10-10 dashboard):
 
-| Model | Approx. Limits |
+| Model | Approx. Model Limits |
 |---|---|
-| Gemini 3.8 / 3.6 / 3.5 Flash-Lite / 3.1 Flash-Lite / 2.5 Flash | ~250K tok/min · ~20 req/day · 5–15 req/min |
-| Gemini 3.1 / 2.5 Flash TTS | ~10K tok/min · ~10 req/day · 3 req/min |
-| Gemma 4 31B / 26B A4B Instruct | ~16K tok/min · ~14.4K req/day · 30 req/min |
-| Gemma 3 27B / 12B / 4B / 1B Instruct | ~15K tok/min · ~14.4K req/day · 30 req/min |
+| Gemini 3.8 Flash | ~250,000 tok/min · ~20 req/day · 5 req/min |
+| Gemini 3.6 Flash | ~250,000 tok/min · ~20 req/day · 5 req/min |
+| Gemini 3 Flash Preview | ~250,000 tok/min · ~20 req/day · 5 req/min |
+| Gemini 3.5 Flash-Lite | ~250,000 tok/min · ~500 req/day · 15 req/min |
+| Gemini 3.1 Flash-Lite | ~250,000 tok/min · ~500 req/day · 15 req/min |
+| Gemini 2.5 Flash | ~250,000 tok/min · ~20 req/day · 5 req/min |
+| Gemini 2.5 Flash-Lite | ~250,000 tok/min · ~20 req/day · 10 req/min |
+| Gemini 3.1 Flash TTS | ~10,000 tok/min · ~10 req/day · 3 req/min |
+| Gemini 2.5 Flash TTS | ~10,000 tok/min · ~10 req/day · 3 req/min |
+| Gemini Robotics-ER 1.6 | ~250,000 tok/min · ~20 req/day · 5 req/min |
+| Gemini Robotics-ER 1.5 | ~250,000 tok/min · ~20 req/day · 10 req/min |
+| Gemma 4 31B Instruct | ~16,000 tok/min · ~14,400 req/day · 30 req/min |
+| Gemma 4 26B A4B Instruct | ~16,000 tok/min · ~14,400 req/day · 30 req/min |
+| Gemma 3 27B Instruct | ~15,000 tok/min · ~14,400 req/day · 30 req/min |
+| Gemma 3 12B Instruct | ~15,000 tok/min · ~14,400 req/day · 30 req/min |
+| Gemma 3 4B Instruct | ~15,000 tok/min · ~14,400 req/day · 30 req/min |
+| Gemma 3 1B Instruct | ~15,000 tok/min · ~14,400 req/day · 30 req/min |
 
 ---
 
@@ -151,10 +172,18 @@ A curated, verified reference of free and trial-credit LLM inference APIs. Every
 
 **Free Models** (rotating; 2026-10-10):
 
-- `inclusionai/ling-3.1-flash` · `stepfun/step-5-preview-free` · `Cohere North Mini Code`
-- `Kilo Auto Free` · `OpenRouter Free Models` (routers)
-- `NVIDIA Nemotron variants` (incl. 3.5 Lightning)
-- `Poolside Laguna variants` · `dots-3` · `lfm-2.5` · `inkling-small` · `glyph-cluster` · `lyria`
+- inclusionai/ling-3.1-flash
+- stepfun/step-5-preview-free
+- Cohere North Mini Code
+- Kilo Auto Free (Router)
+- OpenRouter Free Models (Router)
+- NVIDIA Nemotron variants (incl. 3.5 Lightning)
+- Poolside Laguna variants
+- dots-3
+- lfm-2.5
+- inkling-small
+- glyph-cluster
+- lyria
 
 ---
 
@@ -168,15 +197,44 @@ A curated, verified reference of free and trial-credit LLM inference APIs. Every
 
 **Free Models** (2026-10-10; rotating):
 
-- Big Pickle · Space Bunny Free · LongCat 2.5 Preview Free · Step 5 Preview Free
-- Exo Free · MiMo-V2.5/V2.6-Flash Free · MiMo V2 Flash/Omni/Pro Free
-- Ling 3.1/3.0/2.6 Flash Free · Ling 3.0 Flash Fin/Tiny Free
-- Nemotron 3 Ultra/Super/3.5 Lightning Free
-- Muse Spark 1.3/1.2 Contributor Free
-- North Mini Code Free · Laguna S 2.1 Free · Kimi K2.5 Free
-- GLM-4.7/5 Free · MiniMax M2.1/M2.5/M3 Free
-- Qwen3.6 Plus Free · Ring 2.6 1T Free · Trinity Large Preview Free · Hy3 Free/Preview Free
-- DeepSeek V4 Flash Free · Ox Alpha Free · Fledge Alpha Free · Jev 1.13 Free
+- Big Pickle (stealth)
+- Space Bunny Free (stealth)
+- LongCat 2.5 Preview Free
+- Step 5 Preview Free
+- Exo Free
+- MiMo-V2.5 Free
+- MiMo-V2.6-Flash Free
+- MiMo V2 Flash Free
+- MiMo V2 Omni Free
+- MiMo V2 Pro Free
+- Ling 3.1 Flash Free
+- Ling 3.0 Flash Free
+- Ling 2.6 Flash Free
+- Ling 3.0 Flash Free
+- Ling 3.0 Tiny Free
+- Ling 3.0 Flash Fin Free
+- Nemotron 3 Ultra Free
+- Nemotron 3 Super Free
+- Nemotron 3.5 Lightning Free
+- Muse Spark 1.3 Contributor Free
+- Muse Spark 1.2 Contributor Free
+- North Mini Code Free
+- Laguna S 2.1 Free
+- Kimi K2.5 Free
+- GLM-4.7 Free
+- GLM-5 Free
+- MiniMax M2.1 Free
+- MiniMax M2.5 Free
+- MiniMax M3 Free
+- Qwen3.6 Plus Free
+- Ring 2.6 1T Free
+- Trinity Large Preview Free
+- Hy3 Free
+- Hy3 Preview Free
+- DeepSeek V4 Flash Free
+- Ox Alpha Free (Unlimited)
+- Fledge Alpha Free
+- Jev 1.13 Free
 
 ---
 
@@ -242,7 +300,14 @@ A curated, verified reference of free and trial-credit LLM inference APIs. Every
 
 **Note:** Full gateway on free tier: routing, fallback, caching, analytics.
 
-**Free Models** (~13 rotating; check [model list](https://www.requesty.ai/models)): Nemotron 3 Ultra, Laguna, Gemma 4, Ling 3.1, Leanstral, etc.
+**Free Models** (~13 rotating; check [model list](https://www.requesty.ai/models)):
+
+- Nemotron 3 Ultra
+- Laguna
+- Gemma 4
+- Ling 3.1
+- Leanstral
+- (and others — check live model list)
 
 ---
 
@@ -254,10 +319,16 @@ A curated, verified reference of free and trial-credit LLM inference APIs. Every
 
 **Free Models** ($0.00/1M on [models page](https://portal.nousresearch.com/models), 2026-10-10):
 
-- Ling 3.1 Flash · Ling 3.0 Flash Fin/Sante
-- LongCat 2.0 · LongCat 2.5 Preview
-- Laguna S 2.1 · Laguna XS 2.1
-- Step 3.7 Flash · Step 5 Preview · Solar Mini 4
+- Ling 3.1 Flash
+- Ling 3.0 Flash Fin
+- Ling 3.0 Flash Sante
+- LongCat 2.0
+- LongCat 2.5 Preview
+- Laguna S 2.1
+- Laguna XS 2.1
+- Step 3.7 Flash
+- Step 5 Preview
+- Solar Mini 4
 
 ---
 
@@ -269,7 +340,11 @@ A curated, verified reference of free and trial-credit LLM inference APIs. Every
 
 ⚠️ Quotas **significantly reduced Oct 2026**; "may be reduced without notice" per terms. Anonymous tier exists but docs inconsistent — get a free token.
 
-**Free Models:** `turbo`-tier only (e.g., GLM-5.3-Flash, codestral-latest, minimax-m2.7 — check [Models API](https://docs.llm7.io/guides/models-api))
+**Free Models:** `turbo`-tier only (check [Models API](https://docs.llm7.io/guides/models-api) for live list):
+
+- GLM-5.3-Flash
+- codestral-latest
+- minimax-m2.7
 
 ---
 
@@ -279,7 +354,10 @@ A curated, verified reference of free and trial-credit LLM inference APIs. Every
 
 **Limits:** Server-owned free-model limits · No card · Free web search requires verified email · [llms.txt](https://bazaarlink.ai/llms.txt)
 
-**Free Models:** `auto:free` router model + signup trial credits
+**Free Models:**
+
+- `auto:free` router model
+- Signup trial credits
 
 ---
 
@@ -295,11 +373,16 @@ A curated, verified reference of free and trial-credit LLM inference APIs. Every
 
 | Model | Limits |
 |---|---|
-| openai/gpt-oss-120b / 20b / safeguard-20b | 1,000 req/day · 8,000 tok/min |
+| openai/gpt-oss-120b | 1,000 req/day · 8,000 tok/min |
+| openai/gpt-oss-20b | 1,000 req/day · 8,000 tok/min |
+| openai/gpt-oss-safeguard-20b | 1,000 req/day · 8,000 tok/min |
 | qwen/qwen3.8-27b | 1,000 req/day · 8,000 tok/min |
-| Whisper Large v3 / Turbo | 2,000 req/day · 20 req/min |
-| meta-llama/llama-prompt-guard-2-22m / 86m | 14,400 req/day |
-| canopylabs/orpheus-arabic-saudi / v1-english | 10 req/min · 100 req/day |
+| Whisper Large v3 | 2,000 req/day · 20 req/min |
+| Whisper Large v3 Turbo | 2,000 req/day · 20 req/min |
+| meta-llama/llama-prompt-guard-2-22m | 14,400 req/day |
+| meta-llama/llama-prompt-guard-2-86m | 14,400 req/day |
+| canopylabs/orpheus-arabic-saudi | 10 req/min · 100 req/day |
+| canopylabs/orpheus-v1-english | 10 req/min · 100 req/day |
 
 ---
 
@@ -311,7 +394,19 @@ A curated, verified reference of free and trial-credit LLM inference APIs. Every
 
 ⚠️ **Terms caveat:** Trial keys are evaluation-only. Terms prohibit personal/family/household use; trial data may be used for R&D.
 
-**Free Models:** c4ai-aya-expanse-32b, c4ai-aya-vision-32b, command-a variants, command-r/r+/r7b, Cohere North Mini Code
+**Free Models:**
+
+- c4ai-aya-expanse-32b
+- c4ai-aya-vision-32b
+- command-a-03-2025
+- command-a-plus-05-2026
+- command-a-reasoning-08-2025
+- command-a-translate-08-2025
+- command-a-vision-07-2025
+- command-r-08-2024
+- command-r-plus-08-2024
+- command-r7b-12-2024
+- Cohere North Mini Code
 
 ---
 
@@ -325,7 +420,32 @@ A curated, verified reference of free and trial-credit LLM inference APIs. Every
 
 **Free Models** (2026-10-10):
 
-`@cf/aisingapore/gemma-sea-lion-v4-27b-it` · `@cf/google/gemma-4-26b-a4b-it` · `@cf/ibm-granite/granite-4.0-h-micro` · `@cf/nvidia/nemotron-3-120b-a12b` · `@cf/openai/gpt-oss-120b/20b` · `@cf/qwen/qwen3-30b-a3b-fp8` · `@cf/qwen/qwen3.8-27b` · `@cf/zai-org/glm-4.7-flash` · `@cf/zai-org/glm-5.3-flash` · `@cf/moonshotai/kimi-k2.5` · DeepSeek R1 Distill Qwen 32B · Gemma 2B/7B Instruct (LoRA) · Llama 2 7B/3.1 8B/3.2 1B/3B/3.3 70B/4 Scout (FP8/LoRA) · Llama Guard 3 8B · Mistral 7B v0.2 / Small 3.1 24B (LoRA) · Qwen 2.5 Coder 32B · Qwen QwQ 32B
+- @cf/aisingapore/gemma-sea-lion-v4-27b-it
+- @cf/google/gemma-4-26b-a4b-it
+- @cf/ibm-granite/granite-4.0-h-micro
+- @cf/nvidia/nemotron-3-120b-a12b
+- @cf/openai/gpt-oss-120b
+- @cf/openai/gpt-oss-20b
+- @cf/qwen/qwen3-30b-a3b-fp8
+- @cf/qwen/qwen3.8-27b
+- @cf/zai-org/glm-4.7-flash
+- @cf/zai-org/glm-5.3-flash
+- @cf/moonshotai/kimi-k2.5
+- DeepSeek R1 Distill Qwen 32B
+- Gemma 2B Instruct (LoRA)
+- Gemma 7B Instruct (LoRA)
+- Llama 2 7B Chat (LoRA)
+- Llama 3.1 8B Instruct (FP8)
+- Llama 3.2 11B Vision Instruct
+- Llama 3.2 1B Instruct
+- Llama 3.2 3B Instruct
+- Llama 3.3 70B Instruct (FP8)
+- Llama 4 Scout Instruct
+- Llama Guard 3 8B
+- Mistral 7B Instruct v0.2 (LoRA)
+- Mistral Small 3.1 24B Instruct
+- Qwen 2.5 Coder 32B Instruct
+- Qwen QwQ 32B
 
 ---
 
