@@ -56,11 +56,11 @@ This directory catalogues services offering free or trial-credit access to API-b
 
 > Ongoing free tiers — not one-time trial credits. No credit card required to start, except where noted.
 
-## ▍ [OpenRouter](https://openrouter.ai/)
+## ▍ <a href="https://openrouter.ai/" target="_blank">OpenRouter</a>
 
 Models share a common quota.
 
-**Limits** — 20 requests/minute · 50 requests/day · up to 1,000 requests/day with a $10 lifetime top-up ([limits docs](https://openrouter.ai/docs/api/reference/limits)) · No credit card
+**Limits** — 20 requests/minute · 50 requests/day · up to 1,000 requests/day with a $10 lifetime top-up (<a href="https://openrouter.ai/docs/api/reference/limits" target="_blank">limits docs</a>) · No credit card
 
 **Free Models** (as of Oct 2026 — the roster rotates; check the model page before relying on one)
 
@@ -86,7 +86,7 @@ Models share a common quota.
 
 ---
 
-## ▍ [Google AI Studio](https://aistudio.google.com/)
+## ▍ <a href="https://aistudio.google.com/" target="_blank">Google AI Studio</a>
 
 > Data is used for training when used outside of the UK / CH / EEA / EU. Rate limits are now shown per-project inside AI Studio rather than published; figures below reflect October 2026 dashboard values.
 
@@ -112,39 +112,39 @@ Models share a common quota.
 
 ---
 
-## ▍ [NVIDIA NIM](https://build.nvidia.com/explore/discover)
+## ▍ <a href="https://build.nvidia.com/explore/discover" target="_blank">NVIDIA NIM</a>
 
 > Phone number verification required. Free-tier context windows are capped below the models' full maximum (e.g. ~131K for Nemotron-3-Nano). SMS verification can be flaky in some regions.
 
 **Limits** — 40 requests/minute
 
-**Models** — [Various open models](https://build.nvidia.com/models)
+**Models** — <a href="https://build.nvidia.com/models" target="_blank">Various open models</a>
 
 ---
 
-## ▍ [Mistral (La Plateforme)](https://console.mistral.ai/)
+## ▍ <a href="https://console.mistral.ai/" target="_blank">Mistral (La Plateforme)</a>
 
 > Free tier is now called **"Free mode"** (previously the Experiment plan). Data training is enabled by default in Free mode — opt out in Admin → Privacy. Requires phone number verification.
 
-**Limits** — Per-model and per-organization; shown only in your [Admin Panel → API → Limits](https://admin.mistral.ai/plateforme/limits) (login required). Mistral no longer publishes numeric throughput publicly.
+**Limits** — Per-model and per-organization; shown only in your <a href="https://admin.mistral.ai/plateforme/limits" target="_blank">Admin Panel → API → Limits</a> (login required). Mistral no longer publishes numeric throughput publicly.
 
-**Models** — [Open and Proprietary Mistral models](https://docs.mistral.ai/getting-started/models/models_overview/)
+**Models** — <a href="https://docs.mistral.ai/getting-started/models/models_overview/" target="_blank">Open and Proprietary Mistral models</a>
 
 ---
 
-## ▍ [Vercel AI Gateway](https://vercel.com/docs/ai-gateway)
+## ▍ <a href="https://vercel.com/docs/ai-gateway" target="_blank">Vercel AI Gateway</a>
 
 > Routes to various supported providers. The free tier covers a subset of the model catalogue, with per-model rate limits.
 
-**Limits** — ~$5 of free credit per 30 days · **A valid payment method must be on file before free credits work** (returns `403 customer_verification_required` otherwise) — see [pricing](https://vercel.com/docs/ai-gateway/pricing)
+**Limits** — ~$5 of free credit per 30 days · **A valid payment method must be on file before free credits work** (returns `403 customer_verification_required` otherwise) — see <a href="https://vercel.com/docs/ai-gateway/pricing" target="_blank">pricing</a>
 
 ---
 
-## ▍ [Kilo Gateway](https://kilo.ai/docs/gateway)
+## ▍ <a href="https://kilo.ai/docs/gateway" target="_blank">Kilo Gateway</a>
 
 > OpenAI-compatible gateway routing to various providers. Free models work without an account (verified anonymously). *Some* free models (including NVIDIA endpoints) log or train on prompts — check each model's policy.
 
-**Limits** — 200 requests/hour per IP, shared across all free models ([rate limiting docs](https://kilo.ai/docs/gateway/usage-and-billing#rate-limiting))
+**Limits** — 200 requests/hour per IP, shared across all free models (<a href="https://kilo.ai/docs/gateway/usage-and-billing#rate-limiting" target="_blank">rate limiting docs</a>)
 
 **Free Models** (as of Oct 2026; rotates)
 
@@ -159,7 +159,7 @@ Models share a common quota.
 
 ---
 
-## ▍ [OpenCode Zen](https://opencode.ai/zen)
+## ▍ <a href="https://opencode.ai/zen" target="_blank">OpenCode Zen</a>
 
 > AI gateway with curated, benchmarked models for coding agents. **OpenAI-compatible** — base URL `https://opencode.ai/zen/v1/chat/completions`. Free models are **$0 input/output** and are available "for a limited time" while teams collect feedback. Can be used with any agent (setup requires signing in and adding a billing balance — anonymous/external calls to the free tier are blocked). Privacy: default zero-retention/no training, with named exceptions (Big Pickle, MiMo, Ling, Nemotron, etc.); Space Bunny, LongCat and Step 5 explicitly follow zero-retention policies.
 
@@ -177,7 +177,7 @@ Models share a common quota.
 
 ---
 
-## ▍ [Command Code](https://commandcode.ai/)
+## ▍ <a href="https://commandcode.ai/" target="_blank">Command Code</a>
 
 > Coding-agent platform (CLI + API) with an OpenAI- and Anthropic-compatible Provider API at `https://api.commandcode.ai/provider/v1`. Offers promotional **free deal models** ($0 in credits). ⚠️ **Requires a paid plan** — the $1/mo Go plan is CLI-only; **API access starts at the $10/mo GOAT plan** (or the $15/mo Provider PAYG plan). Free deal models do not draw down plan credits.
 
@@ -192,11 +192,11 @@ Models share a common quota.
 
 ---
 
-## ▍ [Z.ai](https://z.ai/)
+## ▍ <a href="https://z.ai/" target="_blank">Z.ai</a>
 
-> Zhipu AI's public API — OpenAI-compatible at `https://api.z.ai/api/paas/v4/chat/completions` (plus an Anthropic-compatible endpoint; works with Claude Code and Cline). Three models are permanently priced at **$0 for input, cached input, and output** — genuine free models, not trial credits. No credit card. Rate limits are per-account and unpublished — check your own limits in the [console](https://z.ai/manage-apikey/rate-limits).
+> Zhipu AI's public API — OpenAI-compatible at `https://api.z.ai/api/paas/v4/chat/completions` (plus an Anthropic-compatible endpoint; works with Claude Code and Cline). Three models are permanently priced at **$0 for input, cached input, and output** — genuine free models, not trial credits. No credit card. Rate limits are per-account and unpublished — check your own limits in the <a href="https://z.ai/manage-apikey/rate-limits" target="_blank">console</a>.
 
-**Free Models** (verified against the [official pricing page](https://docs.z.ai/guides/overview/pricing), Oct 2026)
+**Free Models** (verified against the <a href="https://docs.z.ai/guides/overview/pricing" target="_blank">official pricing page</a>, Oct 2026)
 
 - `glm-4.7-flash` — text, 200K context (strongest of the three)
 - `glm-4.5-flash` — text, 128K context
@@ -206,11 +206,11 @@ Models share a common quota.
 
 ---
 
-## ▍ [AIHubMix](https://aihubmix.com/models/free)
+## ▍ <a href="https://aihubmix.com/models/free" target="_blank">AIHubMix</a>
 
 > Gateway subsidizing **60 models at $0 per million input & output tokens**. Every model answers all three protocols: OpenAI Chat Completions, Anthropic Messages, and Responses — works natively with Claude Code (`ANTHROPIC_BASE_URL`), Cursor, Cline, and LiteLLM. One key for all models.
 
-**Limits** — No card: 10 trial calls to start (no expiry). A one-time **$1 top-up** permanently unlocks daily quotas: **100 requests/day · 10 requests/min · 1M tokens/day** shared across the free catalog ([free-models page](https://aihubmix.com/models/free))
+**Limits** — No card: 10 trial calls to start (no expiry). A one-time **$1 top-up** permanently unlocks daily quotas: **100 requests/day · 10 requests/min · 1M tokens/day** shared across the free catalog (<a href="https://aihubmix.com/models/free" target="_blank">free-models page</a>)
 
 **Free Models** (as of Oct 2026 — rotating; full list of 60 on the site)
 
@@ -223,21 +223,21 @@ Models share a common quota.
 
 ---
 
-## ▍ [Requesty](https://www.requesty.ai/free-models)
+## ▍ <a href="https://www.requesty.ai/free-models" target="_blank">Requesty</a>
 
 > AI gateway with a free tier that is the full platform — routing, fallback, prompt caching, real-time analytics, and **EU data residency**. OpenAI-compatible at `https://router.requesty.ai/v1`; works in Claude Code (`ANTHROPIC_BASE_URL` = `https://router.requesty.ai`), Cline, Cursor, and Roo Code. No credit card, no trial timer.
 
-**Limits** — 200 requests/day on free models ([free-models page](https://www.requesty.ai/free-models))
+**Limits** — 200 requests/day on free models (<a href="https://www.requesty.ai/free-models" target="_blank">free-models page</a>)
 
-**Free Models** — marked in the live [model list](https://www.requesty.ai/models) (~13 rotating: Nemotron 3 Ultra, Laguna, Gemma 4, Ling 3.1, Leanstral, etc.)
+**Free Models** — marked in the live <a href="https://www.requesty.ai/models" target="_blank">model list</a> (~13 rotating: Nemotron 3 Ultra, Laguna, Gemma 4, Ling 3.1, Leanstral, etc.)
 
 ---
 
-## ▍ [Nous Portal](https://portal.nousresearch.com/)
+## ▍ <a href="https://portal.nousresearch.com/" target="_blank">Nous Portal</a>
 
-> Nous Research's model gateway (powers Hermes Agent) with a **$0 Free plan**: free models only, standard rate limits, $0 monthly credits. OpenAI-compatible. Hundreds of models in the catalog, with $0.00/1M rows for the free ones. Keyless calls return HTTP 402 — you must mint a Portal key first ([API docs](https://portal.nousresearch.com/api-docs)).
+> Nous Research's model gateway (powers Hermes Agent) with a **$0 Free plan**: free models only, standard rate limits, $0 monthly credits. OpenAI-compatible. Hundreds of models in the catalog, with $0.00/1M rows for the free ones. Keyless calls return HTTP 402 — you must mint a Portal key first (<a href="https://portal.nousresearch.com/api-docs" target="_blank">API docs</a>).
 
-**Free Models** ($0.00/1M listed on the [models page](https://portal.nousresearch.com/models), Oct 2026)
+**Free Models** ($0.00/1M listed on the <a href="https://portal.nousresearch.com/models" target="_blank">models page</a>, Oct 2026)
 
 - Ling 3.1 Flash · Ling 3.0 Flash Fin · Ling 3.0 Flash Sante
 - LongCat 2.0 · LongCat 2.5 Preview
@@ -246,25 +246,25 @@ Models share a common quota.
 
 ---
 
-## ▍ [LLM7.io](https://llm7.io/)
+## ▍ <a href="https://llm7.io/" target="_blank">LLM7.io</a>
 
-> Small educational/research LLM gateway (OpenAI-compatible at `https://api.llm7.io/v1`). Free dashboard token from [dash.llm7.io](https://dash.llm7.io) — no credit card. Covers `turbo`-tier models only (e.g. GLM-5.3-Flash, codestral-latest, minimax-m2.7 — check the [Models API](https://docs.llm7.io/guides/models-api) for live tiers).
+> Small educational/research LLM gateway (OpenAI-compatible at `https://api.llm7.io/v1`). Free dashboard token from <a href="https://dash.llm7.io" target="_blank">dash.llm7.io</a> — no credit card. Covers `turbo`-tier models only (e.g. GLM-5.3-Flash, codestral-latest, minimax-m2.7 — check the <a href="https://docs.llm7.io/guides/models-api" target="_blank">Models API</a> for live tiers).
 
-**Limits** (free token) — 100,000 tokens per 24 hours · 1 req/s · 60 req/min · 250 req/hr ([limits docs](https://docs.llm7.io/limits))
+**Limits** (free token) — 100,000 tokens per 24 hours · 1 req/s · 60 req/min · 250 req/hr (<a href="https://docs.llm7.io/limits" target="_blank">limits docs</a>)
 
 > ⚠️ Free quotas were **significantly reduced in Oct 2026** and "may be reduced without notice" per LLM7's own terms. An anonymous (keyless) tier also exists in the terms but current docs are inconsistent — get a free token to be safe.
 
 ---
 
-## ▍ [BazaarLink](https://bazaarlink.ai/)
+## ▍ <a href="https://bazaarlink.ai/" target="_blank">BazaarLink</a>
 
-> OpenAI-compatible gateway at `https://api.bazaarlink.ai/v1` (also Anthropic Messages + Responses endpoints). No credit card on signup. Offers a zero-cost `auto:free` router model for free inference, plus signup trial credits ([llms.txt](https://bazaarlink.ai/llms.txt)).
+> OpenAI-compatible gateway at `https://api.bazaarlink.ai/v1` (also Anthropic Messages + Responses endpoints). No credit card on signup. Offers a zero-cost `auto:free` router model for free inference, plus signup trial credits (<a href="https://bazaarlink.ai/llms.txt" target="_blank">llms.txt</a>).
 
 **Limits** — Free-model rate and daily limits are server-owned; free web search requires a verified email
 
 ---
 
-## ▍ [Groq](https://console.groq.com/)
+## ▍ <a href="https://console.groq.com/" target="_blank">Groq</a>
 
 > No credit card required. Llama 3.1 8B / Llama 3.3 70B, groq/compound, Allam 2 7B and qwen3.6-27b were decommissioned from the free tier in Aug–Sep 2026.
 
@@ -283,11 +283,11 @@ Models share a common quota.
 
 ---
 
-## ▍ [Cohere](https://cohere.com/)
+## ▍ <a href="https://cohere.com/" target="_blank">Cohere</a>
 
 Models share a common monthly quota on a free trial key.
 
-**Limits** — 20 requests/minute · 1,000 requests/month ([rate limits docs](https://docs.cohere.com/docs/rate-limits)) · No card
+**Limits** — 20 requests/minute · 1,000 requests/month (<a href="https://docs.cohere.com/docs/rate-limits" target="_blank">rate limits docs</a>) · No card
 
 > ⚠️ **Terms caveat** — Cohere's trial keys are evaluation-only. Their Terms of Use prohibit personal, family, or household use, and trial data may be used for R&D. Read the terms before building on it.
 
@@ -307,9 +307,9 @@ Models share a common monthly quota on a free trial key.
 
 ---
 
-## ▍ [Cloudflare Workers AI](https://developers.cloudflare.com/workers-ai)
+## ▍ <a href="https://developers.cloudflare.com/workers-ai" target="_blank">Cloudflare Workers AI</a>
 
-**Limits** — [10,000 neurons/day](https://developers.cloudflare.com/workers-ai/platform/pricing/#free-allocation) on the Workers Free plan, resetting 00:00 UTC
+**Limits** — <a href="https://developers.cloudflare.com/workers-ai/platform/pricing/#free-allocation" target="_blank">10,000 neurons/day</a> on the Workers Free plan, resetting 00:00 UTC
 
 > ⚠️ **Paid-plan models** — `@cf/moonshotai/kimi-k2.6`, `@cf/moonshotai/kimi-k2.7-code` and `@cf/zai-org/glm-5.2` now require a Workers Paid plan or prepaid AI Gateway credits.
 
@@ -350,16 +350,16 @@ Models share a common monthly quota on a free trial key.
 
 | Provider | Credits | Card? | Models |
 | --- | --- | --- | --- |
-| [Fireworks](https://fireworks.ai/) | $1 | No to claim (needed after spent) | [Various open models](https://fireworks.ai/models) |
-| [Baseten](https://app.baseten.co/) | ~$30 (reported; dashboard shows current balance) | No to start | [Any supported model](https://www.baseten.co/library/) — pay by compute time |
-| [Nebius](https://tokenfactory.nebius.com/) | $1, **expires in 30 days** | **Yes — bank card required at onboarding** | [Various open models](https://tokenfactory.nebius.com/models) |
-| [Novita](https://novita.ai/) | $1 credit voucher (per current FAQ) | No | [Various open models](https://novita.ai/models) |
-| [Upstage](https://console.upstage.ai/) | $10 | No | Solar Pro 4 / Solar Mini 4 |
-| [NLP Cloud](https://nlpcloud.com/home) | $15 | No to claim | Various open models |
-| [Alibaba Cloud (International) Model Studio](https://www.alibabacloud.com/en/product/modelstudio) | 1M tokens per model, 90 days (Singapore endpoint) | No | Various open and proprietary Qwen models — [free-quota docs](https://www.alibabacloud.com/help/en/model-studio/new-free-quota); enable "Free Quota Only" to avoid auto-billing |
-| [Modal](https://modal.com/) | $30/month included compute (recurring, not one-time) | Payment method on file | Compute only — **LLM Shared Endpoint tokens are billed separately since Sep 2026** |
-| [Scaleway Generative APIs](https://console.scaleway.com/generative-api/models) | 1M free tokens + 60 min audio transcription | Payment method for base rate limits | Current models include gpt-oss-120b, glm-5.2, deepseek-v4-flash, qwen3.8-27b, gemma, mistral variants, Whisper |
-| [Cerebras](https://cloud.cerebras.ai/) | $5 trial credit, **expires in 30 days** | **Yes — verified payment method required** | gpt-oss-120b, qwen-3.8-27b · 5 RPM · 1M tokens/day |
+| <a href="https://fireworks.ai/" target="_blank">Fireworks</a> | $1 | No to claim (needed after spent) | <a href="https://fireworks.ai/models" target="_blank">Various open models</a> |
+| <a href="https://app.baseten.co/" target="_blank">Baseten</a> | ~$30 (reported; dashboard shows current balance) | No to start | <a href="https://www.baseten.co/library/" target="_blank">Any supported model</a> — pay by compute time |
+| <a href="https://tokenfactory.nebius.com/" target="_blank">Nebius</a> | $1, **expires in 30 days** | **Yes — bank card required at onboarding** | <a href="https://tokenfactory.nebius.com/models" target="_blank">Various open models</a> |
+| <a href="https://novita.ai/" target="_blank">Novita</a> | $1 credit voucher (per current FAQ) | No | <a href="https://novita.ai/models" target="_blank">Various open models</a> |
+| <a href="https://console.upstage.ai/" target="_blank">Upstage</a> | $10 | No | Solar Pro 4 / Solar Mini 4 |
+| <a href="https://nlpcloud.com/home" target="_blank">NLP Cloud</a> | $15 | No to claim | Various open models |
+| <a href="https://www.alibabacloud.com/en/product/modelstudio" target="_blank">Alibaba Cloud (International) Model Studio</a> | 1M tokens per model, 90 days (Singapore endpoint) | No | Various open and proprietary Qwen models — <a href="https://www.alibabacloud.com/help/en/model-studio/new-free-quota" target="_blank">free-quota docs</a>; enable "Free Quota Only" to avoid auto-billing |
+| <a href="https://modal.com/" target="_blank">Modal</a> | $30/month included compute (recurring, not one-time) | Payment method on file | Compute only — **LLM Shared Endpoint tokens are billed separately since Sep 2026** |
+| <a href="https://console.scaleway.com/generative-api/models" target="_blank">Scaleway Generative APIs</a> | 1M free tokens + 60 min audio transcription | Payment method for base rate limits | Current models include gpt-oss-120b, glm-5.2, deepseek-v4-flash, qwen3.8-27b, gemma, mistral variants, Whisper |
+| <a href="https://cloud.cerebras.ai/" target="_blank">Cerebras</a> | $5 trial credit, **expires in 30 days** | **Yes — verified payment method required** | gpt-oss-120b, qwen-3.8-27b · 5 RPM · 1M tokens/day |
 
 ---
 
