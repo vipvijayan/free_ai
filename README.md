@@ -12,43 +12,43 @@ This directory catalogues services offering free or trial-credit access to API-b
 >
 > **SCOPE** — This directory excludes any service that is not a legitimate, officially sanctioned API (e.g. reverse-engineered or unofficial wrappers around an existing chatbot).
 
-> **VERIFICATION** — All links and free-tier claims were re-verified against official provider pages on **10 October 2026**. Providers that have since retired their free access are listed in [Removed / No Longer Free](#removed--no-longer-free). Rate limits and model catalogues churn frequently — always recheck before relying on a tier.
+> **VERIFICATION** — All links and free-tier claims were re-verified against official provider pages on **10 October 2026**. Providers that have since retired their free access are listed in <a href="#removed--no-longer-free" target="_blank">Removed / No Longer Free</a>. Rate limits and model catalogues churn frequently — always recheck before relying on a tier.
 
 ---
 
 ## Contents
 
-- [Part One — Free Providers](#part-one--free-providers)
-  - [OpenRouter](#-openrouter)
-  - [Google AI Studio](#-google-ai-studio)
-  - [NVIDIA NIM](#-nvidia-nim)
-  - [Mistral (La Plateforme)](#-mistral-la-plateforme)
-  - [Vercel AI Gateway](#-vercel-ai-gateway)
-  - [Kilo Gateway](#-kilo-gateway)
-  - [OpenCode Zen](#-opencode-zen)
-  - [Command Code](#-command-code)
-  - [Z.ai](#-zai)
-  - [AIHubMix](#-aihubmix)
-  - [Requesty](#-requesty)
-  - [Nous Portal](#-nous-portal)
-  - [LLM7.io](#-llm7io)
-  - [BazaarLink](#-bazaarlink)
-  - [Groq](#-groq)
-  - [Cohere](#-cohere)
-  - [Cloudflare Workers AI](#-cloudflare-workers-ai)
-- [Part Two — Providers with Trial Credits](#part-two--providers-with-trial-credits)
-  - [Fireworks](#-fireworks)
-  - [Baseten](#-baseten)
-  - [Nebius](#-nebius)
-  - [Novita](#-novita)
-  - [Upstage](#-upstage)
-  - [NLP Cloud](#-nlp-cloud)
-  - [Alibaba Cloud (International) Model Studio](#-alibaba-cloud-international-model-studio)
-  - [Modal](#-modal)
-  - [Scaleway Generative APIs](#-scaleway-generative-apis)
-  - [Cerebras](#-cerebras)
-- [Removed / No Longer Free](#removed--no-longer-free)
-- [Closing Notes](#closing-notes)
+- <a href="#part-one--free-providers" target="_blank">Part One — Free Providers</a>
+  - <a href="#-openrouter" target="_blank">OpenRouter</a>
+  - <a href="#-google-ai-studio" target="_blank">Google AI Studio</a>
+  - <a href="#-nvidia-nim" target="_blank">NVIDIA NIM</a>
+  - <a href="#-mistral-la-plateforme" target="_blank">Mistral (La Plateforme)</a>
+  - <a href="#-vercel-ai-gateway" target="_blank">Vercel AI Gateway</a>
+  - <a href="#-kilo-gateway" target="_blank">Kilo Gateway</a>
+  - <a href="#-opencode-zen" target="_blank">OpenCode Zen</a>
+  - <a href="#-command-code" target="_blank">Command Code</a>
+  - <a href="#-zai" target="_blank">Z.ai</a>
+  - <a href="#-aihubmix" target="_blank">AIHubMix</a>
+  - <a href="#-requesty" target="_blank">Requesty</a>
+  - <a href="#-nous-portal" target="_blank">Nous Portal</a>
+  - <a href="#-llm7io" target="_blank">LLM7.io</a>
+  - <a href="#-bazaarlink" target="_blank">BazaarLink</a>
+  - <a href="#-groq" target="_blank">Groq</a>
+  - <a href="#-cohere" target="_blank">Cohere</a>
+  - <a href="#-cloudflare-workers-ai" target="_blank">Cloudflare Workers AI</a>
+- <a href="#part-two--providers-with-trial-credits" target="_blank">Part Two — Providers with Trial Credits</a>
+  - <a href="#-fireworks" target="_blank">Fireworks</a>
+  - <a href="#-baseten" target="_blank">Baseten</a>
+  - <a href="#-nebius" target="_blank">Nebius</a>
+  - <a href="#-novita" target="_blank">Novita</a>
+  - <a href="#-upstage" target="_blank">Upstage</a>
+  - <a href="#-nlp-cloud" target="_blank">NLP Cloud</a>
+  - <a href="#-alibaba-cloud-international-model-studio" target="_blank">Alibaba Cloud (International) Model Studio</a>
+  - <a href="#-modal" target="_blank">Modal</a>
+  - <a href="#-scaleway-generative-apis" target="_blank">Scaleway Generative APIs</a>
+  - <a href="#-cerebras" target="_blank">Cerebras</a>
+- <a href="#removed--no-longer-free" target="_blank">Removed / No Longer Free</a>
+- <a href="#closing-notes" target="_blank">Closing Notes</a>
 
 ---
 
