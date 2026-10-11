@@ -25,7 +25,6 @@ This directory catalogues services offering free or trial-credit access to API-b
   - [Google AI Studio](#-google-ai-studio)
   - [NVIDIA NIM](#-nvidia-nim)
   - [Mistral (La Plateforme)](#-mistral-la-plateforme)
-  - [Mistral (Codestral)](#-mistral-codestral)
   - [Vercel AI Gateway](#-vercel-ai-gateway)
   - [Kilo Gateway](#-kilo-gateway)
   - [OpenCode Zen](#-opencode-zen)
@@ -125,12 +124,6 @@ Models share a common quota.
 **Limits** — Per-model and per-organization; shown only in your [Admin Panel → API → Limits](https://admin.mistral.ai/plateforme/limits) (login required). Mistral no longer publishes numeric throughput publicly.
 
 **Models** — [Open and Proprietary Mistral models](https://docs.mistral.ai/getting-started/models/models_overview/)
-
----
-
-## ▍ [Mistral (Codestral)](https://codestral.mistral.ai/)
-
-> ⚠️ **Unverified** — The dedicated Codestral endpoint is now auth-gated and no longer documented in Mistral's public docs; historical limits (30 RPM / 2,000 RPD) date from the 2024 beta. Codestral is currently metered on the main `api.mistral.ai` endpoint, with Free-mode usage available there. Recheck with a live account before relying on this entry.
 
 ---
 
